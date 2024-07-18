@@ -16,7 +16,7 @@ public:
         }
 
         long long num = 0;
-        while(i < s.size() && (s[i] >= '0' && s[i] <= '9')){
+        while(i < s.size() && isdigit(s[i])){
             num = num*10 + (s[i] - '0');
             if(num > INT_MAX) return (negative) ? INT_MIN : INT_MAX;
             i++;
