@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0115-distinct-subsequences) |
 | [0151-reverse-words-in-a-string](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0812-rotate-string](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0812-rotate-string) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Dynamic Programming
 |  |
@@ -81,4 +82,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0151-reverse-words-in-a-string) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
