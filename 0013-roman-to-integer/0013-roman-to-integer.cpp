@@ -12,7 +12,7 @@ public:
 
         int ans = 0, i = 0;
         while(i < s.size()){
-            if(values[s[i]] < values[s[i+1]]){
+            if(values[s[i]] < values[s[i+1]]){ //for handling cases like IV, XC
                 ans += values[s[i+1]] - values[s[i]];
                 i += 2;
             }
