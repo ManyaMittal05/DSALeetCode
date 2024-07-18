@@ -6,9 +6,9 @@ public:
             i++;
         }
 
-        bool negative = false;
+        int sign = 1;
         if(i < s.size() && s[i] == '-'){
-            negative = true;
+            sign = -1;
             i++;
         }
         else if(i<s.size() && s[i] == '+'){
@@ -18,13 +18,10 @@ public:
         long long num = 0;
         while(i < s.size() && isdigit(s[i])){
             num = num*10 + (s[i] - '0');
-            if(num > INT_MAX) return (negative) ? INT_MIN : INT_MAX;
+            if(num > INT_MAX) return (sign == -1) ? INT_MIN : INT_MAX;
             i++;
         }
 
-        if(negative){
-            return -num;
-        }
-        return num;
+        return num*sign;
     }
 };
