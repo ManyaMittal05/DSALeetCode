@@ -1,31 +1,36 @@
 class Solution {
 public:
+    //there will be only one lucky number
+    //find max of all min elements in the row
+    //find min of all max elements in column
+    //if they are equal then the lucky number exits and return that number
+    //else no lucky number exits
     vector<int> luckyNumbers (vector<vector<int>>& matrix) {
         int nrows = matrix.size();
         int ncols = matrix[0].size();
-        unordered_set<int> minInRows;
         vector<int> lucky;
-        //finding min ele in all rows and inserting it into a set
+        int maxMin = 0; //max of all min elements in the row
+        int minMax = 1e9; //min of all max elements in the col
+
+        //finding maxMin
         for(int i = 0; i<nrows; i++){
             int minEleInRow = INT_MAX;
             for(int j = 0; j<ncols; j++){
                 minEleInRow = min(minEleInRow, matrix[i][j]);
             }
-            minInRows.insert(minEleInRow);
+            maxMin = max(maxMin, minEleInRow);
         }
 
-        //finding max ele in all columns
+        //finding minMax
         for(int j = 0; j<ncols; j++){
             int maxEleInCol = 0;
             for(int i = 0; i<nrows; i++){
                 maxEleInCol = max(maxEleInCol, matrix[i][j]);
             }
-            //if the max ele of columns exist as a min ele of a row
-            //then add it to the answer i.e. lucky numbers
-            if(minInRows.find(maxEleInCol) != minInRows.end())
-                lucky.push_back(maxEleInCol);
+            minMax = min(minMax, maxEleInCol);
         }
 
+        if(minMax == maxMin) lucky.push_back(minMax);
         return lucky;
     }
 };
