@@ -20,6 +20,8 @@ public:
             for(int i = 0; i<nrows; i++){
                 maxEleInCol = max(maxEleInCol, matrix[i][j]);
             }
+            //if the max ele of columns exist as a min ele of a row
+            //then add it to the answer i.e. lucky numbers
             if(minInRows.find(maxEleInCol) != minInRows.end())
                 lucky.push_back(maxEleInCol);
         }
