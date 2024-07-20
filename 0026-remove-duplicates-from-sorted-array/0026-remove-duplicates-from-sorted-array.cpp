@@ -4,7 +4,7 @@ public:
         int i = 0, j = 0;
         int n = nums.size();
         int k = 0;
-        while(i < n &&i <= j) {
+        while(i < n && i <= j) {
             while(j < n && nums[j] == nums[i]){
                 j++;
             }
