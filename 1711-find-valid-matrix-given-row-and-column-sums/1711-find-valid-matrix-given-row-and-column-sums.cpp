@@ -4,13 +4,16 @@ public:
         int nrows = rowSum.size();
         int ncols = colSum.size();
         vector<vector<int>> ans(nrows, vector<int> (ncols, 0));
-        for(int i = 0; i<nrows; i++){
-            for(int j = 0; j<ncols; j++){
-                int minVal = min(rowSum[i], colSum[j]);
-                ans[i][j] = minVal;
-                rowSum[i] -= minVal;
-                colSum[j] -= minVal;
-            }
+        int i = 0, j = 0;
+
+        while(i < nrows && j < ncols){
+            int minVal  = min(rowSum[i], colSum[j]);
+            ans[i][j] = minVal;
+            rowSum[i] -= minVal;
+            colSum[j] -= minVal;
+            
+            if(rowSum[i] == 0) i++;
+            if(colSum[j] == 0) j++;
         }
         return ans;
     }
