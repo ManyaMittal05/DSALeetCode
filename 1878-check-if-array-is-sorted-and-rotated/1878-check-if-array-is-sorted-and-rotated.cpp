@@ -8,7 +8,7 @@ public:
                 checkCount ++;
         }
 
-        if(checkCount == 1 && nums[0] < nums[n-1]) return false;
+        if(nums[0] < nums[n-1]) checkCount++;
         return (checkCount <= 1);
     }
 };
