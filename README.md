@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0283-move-zeroes) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0013-roman-to-integer) |
+| [0169-majority-element](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
@@ -81,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
@@ -97,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Stack
@@ -143,4 +147,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2472-build-a-matrix-with-conditions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2472-build-a-matrix-with-conditions) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
