@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -181,4 +183,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0128-longest-consecutive-sequence) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
