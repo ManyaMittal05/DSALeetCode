@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2502-sort-the-people) |
@@ -109,10 +111,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 ## Counting
 |  |
 | ------- |
@@ -174,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0169-majority-element) |
+| [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 ## Simulation
 |  |
 | ------- |
@@ -187,4 +192,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
+## Merge Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 <!---LeetCode Topics End-->
