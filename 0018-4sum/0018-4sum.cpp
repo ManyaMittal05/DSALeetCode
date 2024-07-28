@@ -12,8 +12,9 @@ public:
                 int l = n-1;
                 
                 while(k < l){
-                    long long sum = (long long)nums[i] + (long long)nums[j] 
-                                + (long long)nums[k] + (long long)nums[l];
+                    long long sum = nums[i] + nums[j];
+                    sum += nums[k];
+                    sum += nums[l];
                     if(sum == target){
                         ans.push_back({nums[i], nums[j], nums[k], nums[l]});
                         k++;
