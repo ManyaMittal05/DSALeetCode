@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2502-sort-the-people](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2502-sort-the-people) |
+| [2727-number-of-senior-citizens](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Dynamic Programming
 |  |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2472-build-a-matrix-with-conditions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2502-sort-the-people) |
+| [2727-number-of-senior-citizens](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Hash Table
 |  |
