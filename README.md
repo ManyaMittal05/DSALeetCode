@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2472-build-a-matrix-with-conditions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2502-sort-the-people) |
@@ -274,4 +275,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0051-n-queens](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0079-word-search) |
+## Sliding Window
+|  |
+| ------- |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 <!---LeetCode Topics End-->
