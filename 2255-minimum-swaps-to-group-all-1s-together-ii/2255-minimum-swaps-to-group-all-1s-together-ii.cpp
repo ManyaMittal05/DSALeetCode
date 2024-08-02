@@ -8,24 +8,21 @@ public:
             if(nums[i] == 1)
                 count1++;
         }
-        for(int i = 0; i<n-1; i++){
-            nums.push_back(nums[i]);
-        }
 
         int len = 0, swaps = INT_MAX;
-        int count = 0;
-        while(r < 2*n-1){
+        int current0 = 0;
+        while(r < 2*n){
             len++;
-            if(nums[r] != 1) count++;
+            if(nums[r%n] == 0) current0++;
 
             if(len > count1){
-                if(nums[l] == 0) count--;
+                if(nums[l%n] == 0) current0--;
                 l++; 
                 len--;
             }
 
             if(len == count1)
-                swaps = min(swaps, count);
+                swaps = min(swaps, current0);
             r++;
         }
         return swaps;
