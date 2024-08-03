@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0031-next-permutation) |
+| [0037-sudoku-solver](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0053-maximum-subarray) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0013-roman-to-integer) |
+| [0037-sudoku-solver](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0139-word-break) |
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0073-set-matrix-zeroes) |
@@ -280,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0051-n-queens) |
 | [0079-word-search](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0079-word-search) |
 ## Sliding Window
