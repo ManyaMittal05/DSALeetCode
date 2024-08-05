@@ -15,17 +15,13 @@ public:
             int mid = (low + high)/2;
             if(nums[mid] < nums[mid+1] && nums[mid] < nums[mid-1])
                 return nums[mid];
-            //if left half is sorted
-            else if(nums[low] <= nums[mid]){
-                if(nums[high] >= nums[mid]){
-                    high = mid -1;
-                }
-                else{
-                    low = mid + 1;
-                }
+            //if right half is sorted
+            else if(nums[high] >= nums[mid]){
+                high = mid -1;
             }
+            //if left half is sorted
             else{
-                high = mid-1;
+                low = mid+1;
             }
         }
         return -1;
