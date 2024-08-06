@@ -6,17 +6,9 @@ public:
     }
     int minimumPushes(string word) {
         vector<int> freq(26,0);
-        int countLetters = 0;
         int ans = 0;
         for(int i = 0; i<word.size(); i++){
-            if(freq[word[i]-'a'] == 0){
-                countLetters++;
-            }
             freq[word[i]-'a']++;
-        }
-
-        if(countLetters <= 8){
-            return word.size();
         }
         vector<pair<char,int>> freqPair;
         char ch = 'a';
