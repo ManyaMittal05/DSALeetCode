@@ -1,12 +1,13 @@
 class Solution {
 public:
-    vector<vector<int>> directions = {{1,0}, {0,-1}, {0,1}, {-1,0}};
 
     //since we need to simulateously rotten the oranges which are present int the neighbourhood
     //we will use the level wise order traversal i.e. bfs
     int orangesRotting(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
+
+        vector<vector<int>> directions = {{1,0}, {0,-1}, {0,1}, {-1,0}};
         vector<vector<int>> visited = grid;
         queue<vector<int>> q;
 
