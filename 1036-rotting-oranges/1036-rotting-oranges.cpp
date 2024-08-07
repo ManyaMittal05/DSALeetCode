@@ -8,7 +8,6 @@ public:
         int n = grid[0].size();
 
         vector<vector<int>> directions = {{1,0}, {0,-1}, {0,1}, {-1,0}};
-        vector<vector<int>> visited = grid;
         queue<vector<int>> q;
 
         for(int i = 0; i<m; i++){
@@ -30,8 +29,8 @@ public:
                 int new_j = j + d[1];
 
                 if(new_i >= 0 && new_i < m && new_j >=0 && new_j < n 
-                        && visited[new_i][new_j] == 1){
-                    visited[new_i][new_j] = 2;
+                        && grid[new_i][new_j] == 1){
+                    grid[new_i][new_j] = 2;
                     q.push({new_i, new_j, time+1});
                     max_time = max(max_time, time+1);
                 }
@@ -40,7 +39,7 @@ public:
 
         for(int i = 0; i<m; i++){
             for(int j = 0; j<n; j++){
-                if(visited[i][j] == 1){
+                if(grid[i][j] == 1){
                     return -1;
                 }
             }
