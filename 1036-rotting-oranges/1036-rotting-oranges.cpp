@@ -9,11 +9,17 @@ public:
 
         vector<vector<int>> directions = {{1,0}, {0,-1}, {0,1}, {-1,0}};
         queue<vector<int>> q;
-
+        int total_oranges = 0;
+        int rotten_oranges_count = 0;
         for(int i = 0; i<m; i++){
             for(int j = 0; j<n; j++){
                 if(grid[i][j] == 2){
                     q.push({i, j, 0});
+                    rotten_oranges_count++;
+                    total_oranges++;
+                }
+                else if(grid[i][j] == 1){
+                    total_oranges++;
                 }
             }
         }
@@ -33,17 +39,13 @@ public:
                     grid[new_i][new_j] = 2;
                     q.push({new_i, new_j, time+1});
                     max_time = max(max_time, time+1);
+                    rotten_oranges_count++;
                 }
             }
         }
 
-        for(int i = 0; i<m; i++){
-            for(int j = 0; j<n; j++){
-                if(grid[i][j] == 1){
-                    return -1;
-                }
-            }
-        }
-        return max_time;
+        if(total_oranges == rotten_oranges_count)
+            return max_time;
+        return -1;
     }
 };
