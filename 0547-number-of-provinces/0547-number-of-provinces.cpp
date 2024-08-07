@@ -1,11 +1,19 @@
 class Solution {
 public:
-    void dfs(int node, vector<bool>& visited, vector<vector<int>> isConnected){
+    void bfs(int node, vector<bool>& visited, vector<vector<int>> isConnected){
+        queue<int> q;
         visited[node] = true;
-        for(int i=0; i<isConnected[node-1].size(); i++){
-            if(isConnected[node-1][i] == 1){
-                if(!visited[i+1]){
-                    dfs(i+1, visited, isConnected);
+        q.push(node);
+
+        while(!q.empty()){
+            int vertex = q.front();
+            q.pop();
+            for(int i = 0; i<isConnected[vertex-1].size(); i++){
+                if(isConnected[vertex-1][i] == 1){
+                    if(!visited[i+1]){
+                        visited[i+1] = true;
+                        q.push(i+1);
+                    }
                 }
             }
         }
@@ -16,7 +24,7 @@ public:
         vector<bool> visited(n+1, false);
         for(int i = 1; i<n+1; i++){
             if(!visited[i]){
-                dfs(i, visited, isConnected);
+                bfs(i, visited, isConnected);
                 count++;
             }
         }
