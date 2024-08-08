@@ -21,14 +21,31 @@ public:
         int m = board.size(), n = board[0].size();
         vector<vector<bool>> visited(m, vector<bool> (n, false));
 
-        for(int i = 0; i<m; i++){
-            for(int j = 0; j<n; j++){
-                //check boundary cases
-                if(i == 0 || i == m-1 || j == 0 || j == n-1){
-                    if(board[i][j] == 'O' && !visited[i][j]){
-                        dfs(i, j, visited, board);
-                    }
-                }
+        //for upper boundary row
+        for(int j = 0; j < n; j++){
+            if(board[0][j] == 'O' && !visited[0][j]){
+                dfs(0, j, visited, board);
+            }
+        }
+
+        //for right boundary column
+        for(int i = 0; i < m; i++){
+            if(board[i][n-1] == 'O' && !visited[i][n-1]){
+                dfs(i, n-1, visited, board);
+            }
+        }
+
+        //for down boundary row
+        for(int j = 0; j < n; j++){
+            if(board[m-1][j] == 'O' && !visited[m-1][j]){
+                dfs(m-1, j, visited, board);
+            }
+        }
+
+        //for left boundary column
+        for(int i = 0; i < m; i++){
+            if(board[i][0] == 'O' && !visited[i][0]){
+                dfs(i, 0, visited, board);
             }
         }
 
