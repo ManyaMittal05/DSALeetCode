@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-spiral-matrix-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 | [1036-rotting-oranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
 | [1196-filling-bookcase-shelves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1333-sort-the-jumbled-numbers) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
+| [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Binary Tree
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
 | [0921-spiral-matrix-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0921-spiral-matrix-iii) |
 | [1036-rotting-oranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2472-build-a-matrix-with-conditions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2472-build-a-matrix-with-conditions) |
@@ -290,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -321,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Binary Indexed Tree
 |  |
