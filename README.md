@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0079-word-search) |
+| [0130-surrounded-regions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
 | [0921-spiral-matrix-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0921-spiral-matrix-iii) |
@@ -285,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 ## Prefix Sum
 |  |
@@ -312,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
