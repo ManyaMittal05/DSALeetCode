@@ -12,9 +12,9 @@ public:
     }
 
     int findKthPositive(vector<int>& arr, int k) {
-        int low = 1, high = arr[arr.size()-1] + k;
+        int high = arr[arr.size()-1] + k;
         int size = 0;
-        for(int i = low; i<=high; i++){
+        for(int i = 1; i<=high; i++){
             if(!isPresent(arr, i)){
                 size++;
                 if(size == k){
