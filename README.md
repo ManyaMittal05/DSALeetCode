@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
+| [0870-magic-squares-in-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 | [1036-rotting-oranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1036-rotting-oranges) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0870-magic-squares-in-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0273-integer-to-english-words) |
 | [0282-expression-add-operators](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0282-expression-add-operators) |
+| [0870-magic-squares-in-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0870-magic-squares-in-grid) |
 ## Two Pointers
 |  |
 | ------- |
@@ -239,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
+| [0870-magic-squares-in-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0921-spiral-matrix-iii) |
 | [1036-rotting-oranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
