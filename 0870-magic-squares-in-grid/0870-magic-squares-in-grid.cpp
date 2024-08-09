@@ -2,7 +2,12 @@ class Solution {
 public:
     bool checkMagicSquare(int i, int j, vector<vector<int>>& grid){
         int row1 = 0, row2 = 0, row3 = 0, col1 = 0, col2 = 0, col3 = 0, diag1 = 0, diag2 = 0;
-        
+        //5 should be the middle element in a magic square
+        if(grid[i+1][j+1] != 5)
+            return false;
+
+        //sum of every row, column and diag of a magic square is 15
+
         //check if the numbers are distinct
         vector<int> hash(10, 1);
 
@@ -23,7 +28,7 @@ public:
             row3 += grid[i+2][k];
         }
 
-        if(row1 != row2 || row1 != row3 || row2 != row3)
+        if(row1 != 15 || row2 != 15 || row3 != 15)
             return false;
         
         //for cols
@@ -33,14 +38,14 @@ public:
             col3 += grid[k][j+2];
         }
 
-        if(col1 != col2 || col2 != col3 || col3 != col1 || col1 != row1)
+        if(col1 != 15 || col2 != 15 || col3 != 15)
             return false;
 
         //for diagonals
         diag1 = grid[i][j] + grid[i+1][j+1] + grid[i+2][j+2];
         diag2 = grid[i][j+2] + grid[i+1][j+1] + grid[i+2][j];
 
-        if(diag1 != diag2 || diag1 != col1)
+        if(diag1 != 15 || diag1 != 15)
             return false;
 
         return true;
