@@ -12,14 +12,12 @@ public:
     }
 
     int findKthPositive(vector<int>& arr, int k) {
-        int low = 1, high = *max_element(arr.begin(), arr.end()) + k;
-
-        vector<int> missing;
-
+        int low = 1, high = arr[arr.size()-1] + k;
+        int size = 0;
         for(int i = low; i<=high; i++){
             if(!isPresent(arr, i)){
-                missing.push_back(i);
-                if(missing.size() == k){
+                size++;
+                if(size == k){
                     return i;
                 }
             }
