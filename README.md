@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0152-maximum-product-subarray) |
+| [0410-split-array-largest-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0410-split-array-largest-sum) |
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [1196-filling-bookcase-shelves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0283-move-zeroes) |
+| [0410-split-array-largest-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0044-wildcard-matching) |
+| [0410-split-array-largest-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0410-split-array-largest-sum) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Recursion
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
+| [0410-split-array-largest-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0907-koko-eating-bananas) |
@@ -316,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Merge Sort
 |  |
