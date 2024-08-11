@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0999-regions-cut-by-slashes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2472-build-a-matrix-with-conditions) |
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0210-course-schedule-ii) |
+| [0820-find-eventual-safe-states](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0820-find-eventual-safe-states) |
 | [2472-build-a-matrix-with-conditions](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 ## Divide and Conquer
 |  |
@@ -366,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0999-regions-cut-by-slashes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
