@@ -5,8 +5,8 @@ public:
         vector<vector<int>> adj(numCourses);
         vector<int> indegree(numCourses);
         for(auto p : prerequisites){
-            adj[p[0]].push_back(p[1]);
-            indegree[p[1]]++;
+            adj[p[1]].push_back(p[0]);
+            indegree[p[0]]++;
         }
 
         queue<int> q;
@@ -30,7 +30,6 @@ public:
         }
 
         if(courseOrder.size() == numCourses){
-            reverse(courseOrder.begin(), courseOrder.end());
             return courseOrder;
         }
         return {};
