@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -328,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -356,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0493-reverse-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0948-sort-an-array) |
 ## Radix Sort
@@ -442,4 +445,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+## Linked List
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
