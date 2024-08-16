@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0624-maximum-distance-in-arrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0044-wildcard-matching) |
 | [0410-split-array-largest-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0410-split-array-largest-sum) |
+| [0624-maximum-distance-in-arrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0890-lemonade-change](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
