@@ -1,32 +1,25 @@
 class Solution {
 public:
     int nthUglyNumber(int n) {
+        vector<int> arr(n+1);
+        arr[1] = 1;
+        int i2 = 1;
+        int i3 = 1;
+        int i5 = 1;
 
-        vector<int> ans;
-        priority_queue<long long, vector<long long>, greater<long long>> minHeap;
-        unordered_set<long long> set;
-        minHeap.push(1);
-        set.insert(1);
-        
-        while(ans.size() != n){
-            long long ele = minHeap.top();
-            ans.push_back(ele);
-            minHeap.pop();
+        for(int i = 2; i<=n; i++){
+            int i2UglyNum = arr[i2] * 2;
+            int i3UglyNum = arr[i3] * 3;
+            int i5UglyNum = arr[i5] * 5;
 
-            if(set.find(ele*2) == set.end()){
-                set.insert(ele*2);
-                minHeap.push(ele*2);
-            }
-            if(set.find(ele*3) == set.end()){
-                set.insert(ele*3);
-                minHeap.push(ele*3);
-            }
-            if(set.find(ele*5) == set.end()){
-                set.insert(ele*5);
-                minHeap.push(ele*5);
-            }
+            int minUglyNum = min(i2UglyNum, min(i3UglyNum, i5UglyNum));
+            arr[i] = minUglyNum;
+
+            if(i2UglyNum == minUglyNum) i2++;
+            if(i3UglyNum == minUglyNum) i3++;
+            if(i5UglyNum == minUglyNum) i5++;
         }
 
-        return ans.back();
+        return arr[n];
     }
 };
