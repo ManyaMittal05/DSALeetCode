@@ -1,46 +1,38 @@
 class Solution {
 public:
-    int r, c;
-    vector<vector<long long>> dp;
-    vector<long long> left, right;
-    long long f(int i, int j, vector<vector<int>>& points){
-        if (i==0) return dp[i][j]=points[i][j];
-        if (dp[i][j]!=-1) return dp[i][j];
-        if (j==0) right_left_max(i, points);
-        return dp[i][j]=max(left[j], right[j])+points[i][j];
-    }
-
-    void right_left_max(int i, vector<vector<int>>& points){
-        // Compute max from left to col j=0...c-1
-        left[0]=f(i-1, 0, points);
-        for (int j=1; j < c; j++)
-            left[j]=max(left[j-1]-1, f(i-1, j, points));
-
-        // Compute max from right downto col j=c-1...0
-        right[c-1]=f(i-1, c-1, points);
-        for (int j=c-2; j >= 0; j--)
-            right[j] = max(right[j+1]-1, f(i-1, j, points));
-    }
-
     long long maxPoints(vector<vector<int>>& points) {
-        r=points.size(), c=points[0].size();
-        dp.assign(r, vector<long long>(c, -1));
-        left.assign(c, LLONG_MIN);
-        right=left;
+        int rows = points.size();
+        int cols = points[0].size();
+        vector<long long> prev(cols);
 
-        long long ans=0;
-        for (int j=0; j<c; j++)
-            ans=max(ans, f(r-1, j, points));
-        return ans;
+        for(int j = 0; j<cols; j++){
+            prev[j] = points[0][j];
+        }
+
+        for(int i = 1; i<rows; i++){
+            vector<long long> left(cols, 0);
+            vector<long long> right(cols, 0);
+
+            left[0] = prev[0];
+            for(int j = 1; j<cols; j++){
+                left[j] = max(prev[j], left[j-1]-1);
+            }
+
+            right[cols-1] = prev[cols-1];
+            for(int j = cols-2; j >= 0; j--){
+                right[j] = max(prev[j], right[j+1]-1);
+            }
+
+            vector<long long> curr(cols, 0);
+            for(int j = 0; j<cols; j++){
+                curr[j] = points[i][j] + max(left[j], right[j]);
+            }
+            
+            prev = curr;
+        }
+
+        return *max_element(prev.begin(), prev.end());
+
+
     }
 };
-
-
-
-auto init = []()
-{ 
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    return 'c';
-}();
