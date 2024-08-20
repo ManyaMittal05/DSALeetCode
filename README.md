@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0650-2-keys-keyboard) |
 | [1196-filling-bookcase-shelves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1240-stone-game-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
 | [1196-filling-bookcase-shelves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1240-stone-game-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1240-stone-game-ii) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0282-expression-add-operators) |
 | [0650-2-keys-keyboard](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0870-magic-squares-in-grid) |
+| [1240-stone-game-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1240-stone-game-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -390,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [1240-stone-game-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1240-stone-game-ii) |
 ## Merge Sort
 |  |
 | ------- |
@@ -488,4 +492,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0023-merge-k-sorted-lists) |
+## Game Theory
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
