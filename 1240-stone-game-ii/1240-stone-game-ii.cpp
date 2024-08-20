@@ -8,8 +8,8 @@ public:
         if(dp[person][i][m] != -1) return dp[person][i][m];
         int stones = 0;
         int result;
-        if(person == 1) result = INT_MIN;
-        else result = INT_MAX;
+        if(person == 1) result = INT_MIN; //because we need to take max result when its alice's turn
+        else result = INT_MAX;//beacuse we need to take max result when its bob's turn
 
         int max_x = min(2*m, n - i);
 
