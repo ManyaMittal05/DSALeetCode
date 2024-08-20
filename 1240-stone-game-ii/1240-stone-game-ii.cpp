@@ -9,7 +9,7 @@ public:
         int stones = 0;
         int result;
         if(person == 1) result = INT_MIN; //because we need to take max result when its alice's turn
-        else result = INT_MAX;//beacuse we need to take max result when its bob's turn
+        else result = INT_MAX;//beacuse we need to take min result when its bob's turn
 
         int max_x = min(2*m, n - i);
 
