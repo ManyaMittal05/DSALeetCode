@@ -35,7 +35,7 @@ public:
     int strangePrinter(string s) {
         int n = s.length();
         int l = 0, r = n-1;
-        vector<vector<int>> dp(n+1, vector<int> (n+1, -1));
+        vector<vector<int>> dp(n, vector<int> (n, -1));
         return solve(s, l, r, dp);
     }
 };
