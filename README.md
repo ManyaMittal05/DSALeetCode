@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0273-integer-to-english-words](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0273-integer-to-english-words) |
 | [0282-expression-add-operators](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0282-expression-add-operators) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0664-strange-printer](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0664-strange-printer) |
 | [0812-rotate-string](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0812-rotate-string) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0410-split-array-largest-sum) |
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0650-2-keys-keyboard) |
+| [0664-strange-printer](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0664-strange-printer) |
 | [1196-filling-bookcase-shelves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1240-stone-game-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
