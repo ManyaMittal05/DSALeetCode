@@ -35,11 +35,11 @@ public:
 
         ListNode* newHead;
 
-        //in case of even, fast = NULL
+        //in case of even, fast = NULL, and slow will be at the head of the second half of the list
         if(!fast){
             newHead = reverse(slow);
         }
-        //in case of odd, fast->next = NULL
+        //in case of odd, fast->next = NULL and slow will be at the mid index which we dont need to compare, hence slow->next
         else{
             newHead = reverse(slow->next);
         }
@@ -47,16 +47,15 @@ public:
         ListNode* secondHalf = newHead;
         ListNode* firstHalf = head;
 
+        //coz in case of odd nodes, secondhalf list will be shorter by one node
         while(secondHalf){
             if(firstHalf->val != secondHalf->val){
-                //reverse(newHead);
                 return false;
             } 
             firstHalf = firstHalf->next;
             secondHalf = secondHalf->next;
         }
 
-        //reverse(newHead);
         return true;
     }
 };
