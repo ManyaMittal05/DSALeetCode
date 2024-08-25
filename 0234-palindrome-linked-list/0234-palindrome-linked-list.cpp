@@ -49,14 +49,14 @@ public:
 
         while(secondHalf){
             if(firstHalf->val != secondHalf->val){
-                reverse(newHead);
+                //reverse(newHead);
                 return false;
             } 
             firstHalf = firstHalf->next;
             secondHalf = secondHalf->next;
         }
 
-        reverse(newHead);
+        //reverse(newHead);
         return true;
     }
 };
