@@ -11,30 +11,26 @@
 class Solution {
 public:
     ListNode* findMiddle(ListNode* head){
-        if(!head || !head->next) return head;
-
         ListNode* slow = head;
         ListNode* fast = head->next;
 
-        while(fast && fast->next){
-            fast = fast->next->next;
+        while(fast != NULL && fast->next != NULL){
             slow = slow->next;
+            fast = fast->next->next;
         }
-
         return slow;
     }
 
-    ListNode* mergedLists(ListNode* list1, ListNode* list2){
+    ListNode* mergeTwoSortedLists(ListNode* list1, ListNode* list2){
         ListNode* dummyNode = new ListNode(-1);
         ListNode* temp = dummyNode;
 
-        while(list1 && list2){
-            if(list1->val <= list2->val){
+        while(list1 != NULL && list2 != NULL){
+            if(list1->val < list2->val){
                 temp->next = list1;
-                temp= list1;
+                temp = list1;
                 list1 = list1->next;
             }
-
             else{
                 temp->next = list2;
                 temp = list2;
@@ -48,16 +44,16 @@ public:
     }
 
     ListNode* sortList(ListNode* head) {
-        if(!head || !head->next) return head;
+        if(head == NULL || head->next == NULL) return head;
 
-        ListNode* middleNode = findMiddle(head);
+        ListNode* middle = findMiddle(head);
+        ListNode* right = middle->next;
+        middle->next = NULL;
         ListNode* left = head;
-        ListNode* right = middleNode->next;
-        middleNode->next = NULL;
 
         left = sortList(left);
         right = sortList(right);
 
-        return mergedLists(left, right);
+        return mergeTwoSortedLists(left, right);
     }
 };
