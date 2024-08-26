@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0801-is-graph-bipartite](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0999-regions-cut-by-slashes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0999-regions-cut-by-slashes) |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0234-palindrome-linked-list) |
+| [0776-n-ary-tree-postorder-traversal](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Math
