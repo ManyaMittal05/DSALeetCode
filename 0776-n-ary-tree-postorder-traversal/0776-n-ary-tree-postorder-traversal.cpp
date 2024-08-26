@@ -26,14 +26,13 @@ public:
         vector<Node*> child = root->children;
         for(int i = 0; i<child.size(); i++){
             traversal(child[i], postorder);
-            postorder.push_back(child[i]->val);
         }
+        postorder.push_back(root->val);
     }
     vector<int> postorder(Node* root) {
         if(!root) return {};
         vector<int> post;
         traversal(root, post);
-        post.push_back(root->val);
         return post;
     }
 };
