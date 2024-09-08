@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1484-linked-list-in-binary-tree](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
 |  |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1484-linked-list-in-binary-tree](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2035-count-sub-islands) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1484-linked-list-in-binary-tree](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Greedy
 |  |
@@ -496,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1073-number-of-enclaves) |
+| [1484-linked-list-in-binary-tree](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
@@ -571,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0328-odd-even-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0725-split-linked-list-in-parts) |
 | [0908-middle-of-the-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0908-middle-of-the-linked-list) |
+| [1484-linked-list-in-binary-tree](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Game Theory
 |  |
