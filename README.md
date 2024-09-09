@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0084-largest-rectangle-in-histogram](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0402-remove-k-digits) |
@@ -596,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0402-remove-k-digits](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0402-remove-k-digits) |
 | [0943-sum-of-subarray-minimums](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [2227-sum-of-subarray-ranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2227-sum-of-subarray-ranges) |
