@@ -5,16 +5,16 @@ public:
         int countZeros = 0;
         int n = nums.size();
         int len = 0;
-        
+
         while(r < n){
             if(nums[r] == 0) countZeros++;
 
-            while(l < n && countZeros > k){
+            if(l < n && countZeros > k){
                 if(nums[l] == 0) countZeros--;
                 l++;
             }
-
-            len = max(len , r - l + 1);
+            else
+                len = max(len , r - l + 1);
             r++;
         }
 
