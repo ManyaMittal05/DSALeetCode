@@ -6,9 +6,9 @@ public:
         Node* next;
         Node* prev;
 
-        Node(int key, int val){
-            this->key = key;
-            this->val = val;
+        Node(int keyy, int value){
+            key = keyy;
+            val = value;
             next = NULL;
             prev = NULL;
         }
@@ -17,13 +17,12 @@ public:
     Node* head = new Node(-1,-1);
     Node* tail = new Node(-1,-1);
     unordered_map<int, Node*> mp;
-    int capacity, size;
+    int capacity;
 
     LRUCache(int capacity) {
         this->capacity = capacity;
         head->next = tail;
         tail->prev = head;
-        size = 0;
     }
     
     int get(int key) {
@@ -35,6 +34,7 @@ public:
         prevNode->next = node->next;
         node->next->prev = prevNode;
         node->next = head->next;
+        head->next->prev = node;
         node->prev = head;
         head->next = node;
         return mp[key]->val;
@@ -48,17 +48,18 @@ public:
             prevNode->next = node->next;
             node->next->prev = prevNode;
             node->next = head->next;
+            head->next->prev = node;
             node->prev = head;
             head->next = node;
         }
         else{
-            if(size == capacity){
+            if(mp.size() == capacity){
                 Node* lru = tail->prev;
+                int removeValue = lru->key;
                 tail->prev = lru->prev;
                 tail->prev->next = tail;
+                mp.erase(removeValue);
                 delete lru;
-                mp.erase()
-                size--;
             }
             
             Node* newNode = new Node(key, value);
@@ -66,7 +67,7 @@ public:
             head->next = newNode;
             newNode->prev = head;
             newNode->next->prev = newNode;
-            size++;
+            mp[key] = newNode;
         }
     }
 };
