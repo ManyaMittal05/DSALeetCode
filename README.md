@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0664-strange-printer) |
 | [0812-rotate-string](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0812-rotate-string) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -562,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Trie
 |  |
