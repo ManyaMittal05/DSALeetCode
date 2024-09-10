@@ -345,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1240-stone-game-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2155-find-missing-observations](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2155-find-missing-observations) |
+| [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -615,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1484-linked-list-in-binary-tree](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2411-spiral-matrix-iv](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2411-spiral-matrix-iv) |
+| [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Game Theory
 |  |
 | ------- |
@@ -631,4 +633,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0146-lru-cache) |
+## Number Theory
+|  |
+| ------- |
+| [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 <!---LeetCode Topics End-->
