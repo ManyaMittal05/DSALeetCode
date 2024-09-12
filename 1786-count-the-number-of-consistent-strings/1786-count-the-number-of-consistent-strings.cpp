@@ -1,18 +1,18 @@
 class Solution {
 public:
     int countConsistentStrings(string allowed, vector<string>& words) {
-        unordered_set<char> set;
+        vector<int> freq(26, 0);
 
         for(char ch : allowed){
-            set.insert(ch);
+            freq[ch - 'a']++;
         }
 
         int count = 0;
-        
+
         for(string w : words){
             int flag = 1;
             for(char ch : w){
-                if(set.find(ch) == set.end()){
+                if(freq[ch - 'a'] == 0){
                     flag = 0;
                     break;
                 }
