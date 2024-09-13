@@ -16,6 +16,8 @@ public:
 
         int left = 1 + findHeight(root->left);
         int right = 1 + findHeight(root->right);
+        if(abs(left - right) > 1) return -1;
+        if(left == -1 || right == -1) return -1;
 
         return max(left, right);
     }
@@ -23,15 +25,7 @@ public:
     bool isBalanced(TreeNode* root) {
         if(!root) return true;
 
-        int leftHeight = findHeight(root->left);
-        int rightHeight = findHeight(root->right);
-
-        if(abs(leftHeight - rightHeight) > 1) return false;
-
-        bool leftTree = isBalanced(root->left);
-        bool rightTree = isBalanced(root->right);
-
-        if(!leftTree || !rightTree) return false;
+        if(findHeight(root) == -1) return false;
 
         return true;
     }
