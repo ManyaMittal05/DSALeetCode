@@ -9,12 +9,13 @@ public:
             xOr[i] = xOr[i-1] ^ arr[i];
         }
 
-        vector<int> ans;
+        vector<int> ans(queries.size());
+        int i = 0;
         for(auto q : queries){
-            if(q[0] == 0) ans.push_back(xOr[q[1]]);
+            if(q[0] == 0) ans[i++] = xOr[q[1]];
             else{
                 int result = xOr[q[0]-1] ^ xOr[q[1]];
-                ans.push_back(result);
+                ans[i++] = result;
             }
         }
         return ans;
