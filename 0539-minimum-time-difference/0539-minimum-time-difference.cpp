@@ -8,10 +8,7 @@ public:
             string mins = time.substr(3, 2);
 
             int total_mins = stoi(hrs)*60 + stoi(mins);
-            // if(stoi(hrs) == 0){
-            //     minutes.push_back(24*60 + stoi(mins));
-            // }
-                minutes.push_back(24*60 + total_mins);
+            minutes.push_back(24*60 + total_mins);
             minutes.push_back(total_mins);
         }
 
