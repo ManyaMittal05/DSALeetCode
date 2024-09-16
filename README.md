@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
+| [0539-minimum-time-difference](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0664-strange-printer) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0493-reverse-pairs) |
+| [0539-minimum-time-difference](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0539-minimum-time-difference) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
@@ -358,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0455-assign-cookies) |
+| [0539-minimum-time-difference](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0539-minimum-time-difference) |
 | [0621-task-scheduler](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -433,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0273-integer-to-english-words) |
 | [0282-expression-add-operators](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0282-expression-add-operators) |
+| [0539-minimum-time-difference](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0650-2-keys-keyboard) |
