@@ -340,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0002-add-two-numbers) |
 | [0044-wildcard-matching](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0044-wildcard-matching) |
 | [0206-reverse-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0234-palindrome-linked-list) |
 | [0273-integer-to-english-words](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0273-integer-to-english-words) |
 ## Sorting
@@ -433,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0231-power-of-two) |
 | [0264-ugly-number-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0273-integer-to-english-words) |
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0476-number-complement](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1435-xor-queries-of-a-subarray) |
