@@ -2,7 +2,7 @@ class Solution {
 public:
     long long helper(vector<int>& a, vector<int>& b, int i1, int i2, vector<vector<long long>>& dp){
         if(i1 >= a.size()) return 0;
-        if(i2 >= b.size()) return -4e10;
+        if(i2 >= b.size()) return -4e11;
         if(dp[i1][i2] != -1) return dp[i1][i2];
 
         long long pick = INT_MIN, notpick = INT_MIN;
