@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3518-maximum-multiplication-score](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3518-maximum-multiplication-score) |
+| [3582-find-indices-of-stable-mountains](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3582-find-indices-of-stable-mountains) |
 ## Hash Table
 |  |
 | ------- |
