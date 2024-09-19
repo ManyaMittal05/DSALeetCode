@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3567-convert-date-to-binary](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3567-convert-date-to-binary) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -465,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2155-find-missing-observations](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2155-find-missing-observations) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3567-convert-date-to-binary](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3567-convert-date-to-binary) |
 ## Two Pointers
 |  |
 | ------- |
