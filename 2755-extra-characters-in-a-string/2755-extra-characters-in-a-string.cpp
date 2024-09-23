@@ -22,7 +22,16 @@ public:
         int n = s.length();
         unordered_set<string> set(dictionary.begin(), dictionary.end());
 
-        vector<int> dp(n , -1);
-        return solve(s, n, set, 0, dp);
+        vector<int> dp(n + 1 , 0);
+        for(int i = n-1; i>=0; i--){
+            int skip = 1 + dp[i+1];
+            for(int j = i; j < n; j++){
+                string substring = s.substr(i, j - i + 1);
+                if(set.find(substring) != set.end())
+                    skip = min(skip, dp[j+1]);
+            }
+            dp[i] = skip;
+        }
+        return dp[0];
     }
 };
