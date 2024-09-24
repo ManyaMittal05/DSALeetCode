@@ -12,14 +12,16 @@ public:
                 num = num / 10;
             }
         }
+        
 
+        //checking if those prefixes exist in arr2
         int result = 0;
         for(int i = 0; i<arr2.size(); i++){
             int num = arr2[i];
             while(num != 0){
                 if(set.find(num) != set.end()){
                     result = max(result, num);
-                    break;
+                    break; //break because the first number found will be the largest of all prefixes
                 }
                 num = num / 10;
             }
