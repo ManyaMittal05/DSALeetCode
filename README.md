@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0273-integer-to-english-words) |
+| [2050-count-good-numbers](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2050-count-good-numbers) |
 ## Sorting
 |  |
 | ------- |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0870-magic-squares-in-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+| [2050-count-good-numbers](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2050-count-good-numbers) |
 | [2155-find-missing-observations](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2155-find-missing-observations) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3567-convert-date-to-binary](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3567-convert-date-to-binary) |
