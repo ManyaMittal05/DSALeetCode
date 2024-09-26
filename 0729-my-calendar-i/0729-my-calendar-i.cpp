@@ -1,49 +1,27 @@
 class MyCalendar {
-    vector<pair<int, int>> intervals;
+    set<pair<int, int>> intervals;
 public:
     MyCalendar() {
         
     }
     
     bool book(int start, int end) {
-        if(intervals.size() == 0){
-            intervals.push_back({start, end});
-            return true;
+        //find the first event that starts after or at the same time of the given event  
+        auto it = intervals.lower_bound({start, end});
+
+        //check if the current event overlaps with the next event
+        if(it != intervals.end() && it->first < end)
+            return false;
+
+        //check if the given interval overlap with the previous interval
+        if(it != intervals.begin()){
+            auto prevIt = prev(it);
+            if(prevIt->second > start)
+                return false;
         }
-        int n = intervals.size();
-        sort(intervals.begin(), intervals.end());
-        int low = 0, high = n-1;
-        while(low <= high){
-            int mid = (low + high) / 2;
-            if(end <= intervals[mid].first){
-                if(mid - 1 < 0){
-                    intervals.push_back({start, end});
-                    return true;
-                }
-                else if(intervals[mid-1].second <= start){
-                    intervals.push_back({start, end});
-                    return true;
-                }
-                else{
-                    high = mid - 1;
-                }
-            }
-            else if(start >= intervals[mid].second){
-                if(mid + 1 >= n){
-                    intervals.push_back({start, end});
-                    return true;
-                }
-                else if(intervals[mid+1].first >= end){
-                    intervals.push_back({start, end});
-                    return true;
-                }
-                else{
-                    low = mid + 1;
-                }
-            }
-            else return false;
-        }
-        return false;
+
+        intervals.insert({start, end});
+        return true;
     }
 };
 
