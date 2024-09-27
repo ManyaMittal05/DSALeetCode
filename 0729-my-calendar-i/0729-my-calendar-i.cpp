@@ -1,26 +1,17 @@
 class MyCalendar {
-    set<pair<int, int>> intervals;
+    vector<pair<int, int>> bookings;
 public:
     MyCalendar() {
         
     }
     
     bool book(int start, int end) {
-        //find the first event that starts after or at the same time of the given event  
-        auto it = intervals.lower_bound({start, end});
-
-        //check if the current event overlaps with the next event
-        if(it != intervals.end() && it->first < end)
-            return false;
-
-        //check if the given interval overlap with the previous interval
-        if(it != intervals.begin()){
-            auto prevIt = prev(it);
-            if(prevIt->second > start)
+        for(auto it : bookings){
+            //check if the booking is overlapping with an already existing event
+            if(max(it.first, start) < min(it.second, end))
                 return false;
         }
-
-        intervals.insert({start, end});
+        bookings.push_back({start, end});
         return true;
     }
 };
