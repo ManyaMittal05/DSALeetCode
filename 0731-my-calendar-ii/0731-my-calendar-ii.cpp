@@ -23,11 +23,13 @@ public:
         //check if double booking is being created
         for(auto it : overallBookings){
             if(checkOverlapped(it.first, it.second, start, end)){
+                //if overlapping then puch overlapping reegion in the double booking vector
                 int newstart = max(it.first, start);
                 int newend = min(it.second, end);
                 doubleBookings.push_back({newstart, newend});
             }
         }
+        //push the event interval in overallBookings
         overallBookings.push_back({start, end});
         return true;
     }
