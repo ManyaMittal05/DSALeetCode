@@ -1,5 +1,5 @@
 class MyCircularDeque {
-    int* deq;
+    int deq[1000];
     int k, front, rear, size;
 public:
     MyCircularDeque(int k) {
@@ -7,7 +7,6 @@ public:
         front = 0;
         rear = k-1;
         size = 0;
-        deq = new int[k];
     }
     
     bool insertFront(int value) {
