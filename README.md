@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0735-asteroid-collision) |
+| [0859-design-circular-deque](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0870-magic-squares-in-grid) |
 | [0876-hand-of-straights](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0890-lemonade-change) |
@@ -767,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0859-design-circular-deque](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0859-design-circular-deque) |
 | [0937-online-stock-span](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0937-online-stock-span) |
 ## Binary Search Tree
 |  |
@@ -807,6 +809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0328-odd-even-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0725-split-linked-list-in-parts) |
+| [0859-design-circular-deque](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -845,4 +848,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0214-shortest-palindrome) |
+## Queue
+|  |
+| ------- |
+| [0859-design-circular-deque](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0859-design-circular-deque) |
 <!---LeetCode Topics End-->
