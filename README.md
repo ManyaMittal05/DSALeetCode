@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0013-roman-to-integer) |
+| [0022-generate-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0076-minimum-window-substring) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0055-jump-game) |
@@ -722,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0040-combination-sum-ii) |
