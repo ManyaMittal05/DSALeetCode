@@ -3,7 +3,7 @@ private:
     // Doubly Linked List node to store count and a set of strings with that count
     struct Node {
         int count;
-        list<string> keys; //You should use an unordered_set<string> here because it will have Amortized O(1) time complexity for erase() function.
+        unordered_set<string> keys; //You should use an unordered_set<string> here because it will have Amortized O(1) time complexity for erase() function.
         Node *prev, *next;
         Node(int c) : count(c), prev(nullptr), next(nullptr) {}
     };
@@ -54,7 +54,7 @@ public:
             if (head->next == nullptr || head->next->count != 1) {
                 addNodeAfter(head, 1);
             }
-            head->next->keys.push_front(key);
+            head->next->keys.insert(key);
             mp[key] = head->next;
         } else {
             // Key exists, move it to the next count
@@ -63,9 +63,9 @@ public:
             if (curNode->next == nullptr || curNode->next->count != curCount + 1) {
                 addNodeAfter(curNode, curCount + 1);
             }
-            curNode->next->keys.push_front(key);
+            curNode->next->keys.insert(key);
             mp[key] = curNode->next;
-            curNode->keys.remove(key);
+            curNode->keys.erase(key);
             if (curNode->keys.empty()) {
                 removeNode(curNode);
             }
@@ -77,7 +77,7 @@ public:
         int curCount = curNode->count;
         
         // Remove the key if count becomes zero
-        curNode->keys.remove(key);
+        curNode->keys.erase(key);
         if (curCount == 1) {
             mp.erase(key);
         } else {
@@ -85,7 +85,7 @@ public:
             if (curNode->prev == head || curNode->prev->count != curCount - 1) {
                 addNodeAfter(curNode->prev, curCount - 1);
             }
-            curNode->prev->keys.push_front(key);
+            curNode->prev->keys.insert(key);
             mp[key] = curNode->prev;
         }
         
@@ -96,10 +96,10 @@ public:
     }
 
     string getMaxKey() {
-        return (tail == head) ? "" : tail->keys.front();
+        return (tail == head) ? "" : *tail->keys.begin();
     }
 
     string getMinKey() {
-        return (head->next == nullptr) ? "" : head->next->keys.front();
+        return (head->next == nullptr) ? "" : *head->next->keys.begin();
     }
 };
