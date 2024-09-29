@@ -230,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0432-all-oone-data-structure](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0432-all-oone-data-structure) |
 | [0451-sort-characters-by-frequency](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0621-task-scheduler) |
@@ -779,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0146-lru-cache) |
 | [0295-find-median-from-data-stream](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0295-find-median-from-data-stream) |
+| [0432-all-oone-data-structure](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -822,6 +824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0328-odd-even-linked-list) |
+| [0432-all-oone-data-structure](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0908-middle-of-the-linked-list) |
@@ -846,6 +849,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0146-lru-cache) |
+| [0432-all-oone-data-structure](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0432-all-oone-data-structure) |
 ## Number Theory
 |  |
 | ------- |
