@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0179-largest-number) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0152-maximum-product-subarray) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -741,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0282-expression-add-operators) |
 ## Sliding Window
