@@ -1,14 +1,14 @@
 class CustomStack {
-    int* arr;
+    vector<int> arr;
     int capacity;
     int top;
     int size;
+    vector<int> inc;
 public:
-    CustomStack(int maxSize) {
+    CustomStack(int maxSize) : arr(maxSize), inc(maxSize, 0) {
         capacity = maxSize;
         top = -1;
         size = 0;
-        arr = new int[capacity];
     }
     
     void push(int x) {
@@ -20,17 +20,18 @@ public:
     
     int pop() {
         if(size == 0) return -1;
-        int ele = arr[top];
+        int ele = arr[top] + inc[top];
+        if(top > 0) inc[top-1] += inc[top];
+        inc[top] = 0;
         top--;
         size--;
         return ele;
     }
     
     void increment(int k, int val) {
+        if(size == 0) return;
         int range = min(k, size);
-        for(int i = 0; i<range; i++){
-            arr[i] += val;
-        }
+        inc[range-1] += val;
     }
 };
 
