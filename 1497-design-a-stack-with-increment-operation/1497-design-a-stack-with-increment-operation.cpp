@@ -2,36 +2,32 @@ class CustomStack {
     vector<int> arr;
     int capacity;
     int top;
-    int size;
     vector<int> inc;
 public:
     CustomStack(int maxSize) : arr(maxSize), inc(maxSize, 0) {
         capacity = maxSize;
         top = -1;
-        size = 0;
     }
     
     void push(int x) {
-        if(size == capacity) return;
+        if(top == capacity-1) return;
         top++;
         arr[top] = x;
-        size++;
     }
     
     int pop() {
-        if(size == 0) return -1;
+        if(top == -1) return -1;
         int ele = arr[top] + inc[top];
         if(top > 0) inc[top-1] += inc[top];
         inc[top] = 0;
         top--;
-        size--;
         return ele;
     }
     
     void increment(int k, int val) {
-        if(size == 0) return;
-        int range = min(k, size);
-        inc[range-1] += val;
+        if(top == -1) return;
+        int range = min(k-1, top);
+        inc[range] += val;
     }
 };
 
