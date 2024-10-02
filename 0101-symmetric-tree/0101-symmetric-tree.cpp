@@ -17,9 +17,8 @@ public:
         if(!leftTree && rightTree || leftTree && !rightTree)
             return false;
         
-        if(leftTree->val != rightTree->val) return false;
-
-        return preorder(leftTree->left, rightTree->right) &&
+        return (leftTree->val == rightTree->val) &&
+                preorder(leftTree->left, rightTree->right) &&
                 preorder(leftTree->right, rightTree->left);
     }
 
