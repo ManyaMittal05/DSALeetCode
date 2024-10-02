@@ -12,19 +12,19 @@
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        //using multiset beacause there can be multiple nodes of same values
-        map<int, map<int, multiset<int>>> mp; //vertical -> {level, {multiple nodes}}
-        queue<pair<TreeNode*, pair<int, int>>> q;
-
+        map<int, map<int, multiset<int>>> mp; //{vertical, {level, nodes}}
         vector<vector<int>> ans;
+        if(!root) return ans;
+
+        queue<pair<TreeNode*, pair<int, int>>> q; //{node, {vertical, level}}
         q.push({root, {0, 0}});
 
         while(!q.empty()){
             auto it = q.front();
+            q.pop();
             TreeNode* node = it.first;
             int vertical = it.second.first;
             int level = it.second.second;
-            q.pop();
 
             mp[vertical][level].insert(node->val);
 
@@ -34,9 +34,8 @@ public:
 
         for(auto [vertical, mapping] : mp){
             vector<int> vec;
-            for(auto [level, value] : mapping){
-                
-                vec.insert(vec.end(), value.begin(), value.end());
+            for(auto [level, nodes] : mapping){
+                vec.insert(vec.end(), nodes.begin(), nodes.end());
             }
             ans.push_back(vec);
         }
