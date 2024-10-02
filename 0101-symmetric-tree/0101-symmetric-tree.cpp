@@ -10,27 +10,21 @@
  * };
  */
 class Solution {
-    //we will do preorder traversal (or any traversal) on the left and right subtree of root
-    //for left subtree traversal is : root, left, right'
-    //for right subtree traversal is : root, right, left
-    //if both traversals are equal, then the tree is symmetrical, otherwise not
-    //for any type of traversal switch the right and left position for right and left subtree to get the answer
-    //time comp = O(N)
-    //space comp = O(h)
-
 public:
-    bool checkSymmetry(TreeNode* leftTree, TreeNode* rightTree){
-        if(leftTree == NULL || rightTree == NULL)
-            return leftTree == rightTree;
+    bool preorder(TreeNode* leftTree, TreeNode* rightTree){
+        if(!leftTree && !rightTree) 
+            return true;
+        if(!leftTree && rightTree || leftTree && !rightTree)
+            return false;
+        
+        if(leftTree->val != rightTree->val) return false;
 
-        return leftTree->val == rightTree->val 
-                && checkSymmetry(leftTree->left, rightTree->right)
-               && checkSymmetry(leftTree->right, rightTree->left);
+        return preorder(leftTree->left, rightTree->right) &&
+                preorder(leftTree->right, rightTree->left);
     }
 
     bool isSymmetric(TreeNode* root) {
-        if(root == NULL)
-            return true;
-        return checkSymmetry(root->left, root->right);
+        if(!root) return true;
+        return preorder(root->left, root->right);
     }
 };
