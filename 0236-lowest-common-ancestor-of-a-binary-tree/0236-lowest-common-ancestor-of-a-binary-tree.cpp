@@ -10,19 +10,15 @@
 class Solution {
 public:
     TreeNode* findRootToNodePath(TreeNode* root, TreeNode* p, TreeNode* q){
-        if(!root) return NULL;
-        
-        if(root == p || root == q)
+        if(!root || root == p || root == q)
             return root;
 
         TreeNode* left = findRootToNodePath(root->left, p, q);
         TreeNode* right = findRootToNodePath(root->right, p, q);
         
-        if((left == p && right == q) || (right == p && left == q))
-            return root;
-        if(left) return left;
-        if(right) return right;
-        return NULL;
+        if(!right) return left;
+        if(!left) return right;
+        return root;
     }
 
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
