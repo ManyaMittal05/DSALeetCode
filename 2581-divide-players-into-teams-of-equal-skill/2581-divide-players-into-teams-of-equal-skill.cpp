@@ -3,18 +3,27 @@ public:
     long long dividePlayers(vector<int>& skill) {
         int n = skill.size();
         if(n == 2) return(skill[0] * skill[1]);
-        
-        sort(skill.begin(), skill.end());
-        int targetSum = skill[0] + skill[n-1];
-        long long chemistry = skill[0] * skill[n-1];
+        long long sum = 0;
 
-        for(int i = 1; i < n/2; i++){
-            if(skill[i] + skill[n-i-1] != targetSum) return -1;
-            chemistry += skill[i] * skill[n-i-1];
+        vector<int> cnt(1001, 0);
+        for(int x : skill){
+            cnt[x]++;
+            sum += x;
         }
-        return chemistry;
-        
 
-        
+        int numOfPairs = n/2;
+        if(sum % numOfPairs != 0) return -1;
+        int targetSum = sum / numOfPairs;
+
+        long long chemistry = 0;
+        for(int  i = 0; i<n; i++){
+            int rem = targetSum - skill[i];
+            if(cnt[rem] > 0){
+                chemistry += skill[i] * rem;
+                cnt[rem]--;
+            }
+            else return -1;
+        }
+        return chemistry / 2;
     }
 };
