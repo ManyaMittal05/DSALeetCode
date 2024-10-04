@@ -26,11 +26,11 @@ public:
             if(node->left){
                 q.push(node->left);
                 count++;
-            } else break;
+            } 
             if(node->right){
                 q.push(node->right);
                 count++;
-            } else break;
+            } 
         }
         return count;
     }
