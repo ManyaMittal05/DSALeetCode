@@ -11,30 +11,34 @@
  */
 class Solution {
 public:
+    //morris traversal
+    //O(n) time and O(1) space
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> ans;
-        if(!root) return ans;
+        vector<int> inorder;
+        TreeNode* curr = root;
 
-        stack<TreeNode*> st;
-        st.push(root);
-        TreeNode* node = root;
-
-        while(true){
-            if(node && node->left){
-                st.push(node->left);
-                node = node->left;
+        while(curr != NULL){
+            if(curr->left == NULL){
+                inorder.push_back(curr->val);
+                curr = curr->right;
             }
             else{
-                if(st.empty()) break;
-                node = st.top();
-                st.pop();
-                ans.push_back(node->val);
-                if(node->right){
-                    st.push(node->right);
+                TreeNode* prev = curr->left;
+                while(prev->right && prev->right != curr){
+                    prev = prev->right;
                 }
-                node = node->right;
+
+                if(prev->right == NULL){
+                    prev->right = curr;
+                    curr = curr->left;
+                }
+                else{
+                    prev->right = NULL;
+                    inorder.push_back(curr->val);
+                    curr = curr->right;
+                }
             }
         }
-        return ans;
+        return inorder;
     }
 };
