@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1923-sentence-similarity-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2502-sort-the-people) |
@@ -409,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0890-lemonade-change) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Recursion
 |  |
@@ -514,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2227-sum-of-subarray-ranges](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2227-sum-of-subarray-ranges) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Math
@@ -567,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0908-middle-of-the-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1923-sentence-similarity-iii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1923-sentence-similarity-iii) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
