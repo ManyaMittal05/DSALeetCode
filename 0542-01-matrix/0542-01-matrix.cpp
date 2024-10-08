@@ -1,41 +1,39 @@
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
-        vector<vector<int>> directions = {{1,0}, {0,-1}, {0,1}, {-1,0}};
-        int m = mat.size(), n = mat[0].size();
-        vector<vector<int>> dist(m, vector<int> (n, 0));
-        vector<vector<bool>> visited(m, vector<bool> (n, false));
+        vector<vector<int>> dir = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
+        int n = mat.size();
+        int m = mat[0].size();
+        queue<pair<pair<int, int>, int>> q; // coord, distance
+        vector<vector<int>> ans(n, vector<int>(m, INT_MAX));
 
-        queue<vector<int>> q;
-
-        for(int i = 0; i<m; i++){
-            for(int j = 0; j<n; j++){
-                if(mat[i][j] == 0){
-                    q.push({i, j, 0});
-                    visited[i][j] = true;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (mat[i][j] == 0) {
+                    ans[i][j] = 0;
+                    q.push({{i, j}, 0});
                 }
             }
         }
 
-        while(!q.empty()){
-            vector<int> ele = q.front();
+        while (!q.empty()) {
+            auto p = q.front();
+            int i = p.first.first;
+            int j = p.first.second;
+            int dist = p.second;
             q.pop();
-            int i = ele[0];
-            int j = ele[1];
-            int steps = ele[2];
 
-            dist[i][j] = steps;
-            for(auto d : directions){
+            for (auto d : dir) {
                 int new_i = i + d[0];
                 int new_j = j + d[1];
 
-                if(new_i >= 0 && new_i < m && new_j >= 0 && new_j < n
-                    && !visited[new_i][new_j]){
-                        q.push({new_i, new_j, steps+1});
-                        visited[new_i][new_j] = true;
-                }
+                if (new_i >= 0 && new_i < n && new_j >= 0 && new_j < m &&
+                    mat[new_i][new_j] == 1 && ans[new_i][new_j] == INT_MAX){
+                        q.push({{new_i, new_j}, dist+1});
+                        ans[new_i][new_j] = dist+1;
+                    }
             }
         }
-        return dist;
+        return ans;
     }
 };
