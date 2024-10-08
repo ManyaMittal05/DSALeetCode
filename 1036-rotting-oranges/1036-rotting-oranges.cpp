@@ -1,49 +1,52 @@
 class Solution {
 public:
-
-    //since we need to simulateously rotten the oranges which are present int the neighbourhood
-    //we will use the level wise order traversal i.e. bfs
     int orangesRotting(vector<vector<int>>& grid) {
+        vector<vector<int>> dir = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
+
+        int rotten = 0, totalOranges = 0;
+        int minutes = 0;
         int m = grid.size();
         int n = grid[0].size();
+        vector<vector<bool>> rottenMark(m, vector<bool> (n, false));
+        queue<pair<pair<int, int>, int>> q;
 
-        vector<vector<int>> directions = {{1,0}, {0,-1}, {0,1}, {-1,0}};
-        queue<vector<int>> q;
-
-        for(int i = 0; i<m; i++){
-            for(int j = 0; j<n; j++){
-                if(grid[i][j] == 2){
-                    q.push({i, j, 0});
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(grid[i][j] == 1){
+                    totalOranges++;
+                }
+                else if(grid[i][j] == 2){
+                    q.push({{i, j}, 0});
+                    rottenMark[i][j] = true;
+                    totalOranges++;
+                    rotten++;
                 }
             }
         }
-        int max_time = 0;
+
         while(!q.empty()){
-            vector<int> values = q.front();
+            auto coord = q.front();
             q.pop();
-            int i = values[0];
-            int j = values[1];
-            int time = values[2];
-            for(auto d : directions){
+            int i = coord.first.first;
+            int j = coord.first.second;
+            int time = coord.second;
+
+            for(auto d : dir){
                 int new_i = i + d[0];
                 int new_j = j + d[1];
 
-                if(new_i >= 0 && new_i < m && new_j >=0 && new_j < n 
-                        && grid[new_i][new_j] == 1){
-                    grid[new_i][new_j] = 2;
-                    q.push({new_i, new_j, time+1});
-                    max_time = max(max_time, time+1);
+                if(new_i >= 0 && new_i < m && new_j >= 0 && new_j < n){
+                    if(!rottenMark[new_i][new_j] && grid[new_i][new_j] == 1){
+                        q.push({{new_i, new_j}, time + 1});
+                        rotten++;
+                        rottenMark[new_i][new_j] = true;
+                        minutes = max(minutes, time + 1);
+                    }
                 }
             }
         }
 
-        for(int i = 0; i<m; i++){
-            for(int j = 0; j<n; j++){
-                if(grid[i][j] == 1){
-                    return -1;
-                }
-            }
-        }
-        return max_time;
+        if(rotten == totalOranges) return minutes;
+        return -1;
     }
 };
