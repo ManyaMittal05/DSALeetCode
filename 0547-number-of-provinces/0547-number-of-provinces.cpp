@@ -2,14 +2,6 @@ class Solution {
 public:
     int findCircleNum(vector<vector<int>>& isConnected) {
         int n = isConnected.size();
-        vector<vector<int>> adj(n);
-        for(int i = 0; i<n; i++){
-            for(int j =  0; j < n; j++){
-                if(isConnected[i][j] == 1 && j != i){
-                    adj[i].push_back(j);
-                }
-            }
-        }
 
         queue<int> q;
         vector<int> visited(n, false);
@@ -25,10 +17,10 @@ public:
                     int v = q.front();
                     q.pop();
 
-                    for(int j = 0; j < adj[v].size(); j++){
-                        if(!visited[adj[v][j]]){
-                            visited[adj[v][j]] = true;
-                            q.push(adj[v][j]);
+                    for(int j = 0; j < isConnected[v].size(); j++){
+                        if(!visited[j] && isConnected[v][j] == 1){
+                            visited[j] = true;
+                            q.push(j);
                         }
                     }
                 }
