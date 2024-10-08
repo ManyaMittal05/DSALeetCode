@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3518-maximum-multiplication-score](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3518-maximum-multiplication-score) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
+| [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3582-find-indices-of-stable-mountains](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3582-find-indices-of-stable-mountains) |
 ## Hash Table
 |  |
@@ -642,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 ## Graph
 |  |
 | ------- |
@@ -936,4 +938,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/ManyaMittal05/DSALeetCode/tree/master/0859-design-circular-deque) |
+## Enumeration
+|  |
+| ------- |
+| [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 <!---LeetCode Topics End-->
