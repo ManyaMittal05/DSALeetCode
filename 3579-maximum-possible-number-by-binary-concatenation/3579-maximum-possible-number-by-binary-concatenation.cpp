@@ -1,24 +1,10 @@
 class Solution {
 public:
     int maxGoodNumber(vector<int>& nums) {
-        vector<int> even, odd;
-        
-        for(int i = 0; i<3; i++){
-            if(nums[i] % 2 == 0) even.push_back(nums[i]);
-            else odd.push_back(nums[i]);
-        }
-        
-        if(even.size() > 1) sort(even.begin(), even.end());
-        if(odd.size() > 1) sort(odd.rbegin(), odd.rend());
         
         vector<string> number;
-        for(int i = 0; i<odd.size(); i++){
-            string num = bitset<32>(odd[i]).to_string();
-            num = num.substr(num.find('1'));
-            number.push_back(num);
-        }
-        for(int i = 0; i<even.size(); i++){
-            string num = bitset<32>(even[i]).to_string();
+        for(int i = 0; i<nums.size(); i++){
+            string num = bitset<32>(nums[i]).to_string();
             num = num.substr(num.find('1'));
             number.push_back(num);
         }
