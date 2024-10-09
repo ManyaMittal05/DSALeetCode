@@ -9,7 +9,6 @@ public:
         set.erase(beginWord);
         queue<pair<string, int>> q;
         q.push({beginWord, 1});
-        int ans = 0;
 
         while(!q.empty()){
             auto p = q.front();
@@ -22,13 +21,15 @@ public:
                 for(char ch = 'a'; ch <= 'z'; ch++){
                     w[i] = ch;
                     if(set.find(w) != set.end()){
+                        if(w == endWord){
+                            return count + 1;
+                        }
                         q.push({w, count + 1});
-                        ans = max(ans, count + 1);
                         set.erase(w);
                     }
                 }
             }
         }
-        return ans;
+        return 0;
     }
 };
