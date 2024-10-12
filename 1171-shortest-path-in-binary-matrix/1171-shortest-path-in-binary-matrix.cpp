@@ -7,6 +7,8 @@ public:
         if(grid[0][0] != 0 || grid[n-1][n-1] != 0)
             return -1;
         
+        if(n == 1) return 1;
+        
         queue<pair<pair<int, int>, int>> q;
 
         vector<vector<int>> dist(n, vector<int> (n, INT_MAX));
@@ -28,8 +30,9 @@ public:
                 if(new_i >= 0 && new_i < n && new_j >= 0 && new_j < n){
                     if(grid[new_i][new_j] == 0){
                         if(dist[new_i][new_j] > cellDist + 1){
-                            
                             dist[new_i][new_j] = cellDist + 1;
+                            if(new_i == n - 1 && new_j == n -1)
+                                return dist[new_i][new_j];
                             q.push({{new_i, new_j}, dist[new_i][new_j]});
                         }
                     }
@@ -37,7 +40,6 @@ public:
             }
         }
 
-        if(dist[n-1][n-1] == INT_MAX) return -1;
-        return dist[n-1][n-1];
+        return -1;
     }
 };
