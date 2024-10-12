@@ -7,19 +7,19 @@ public:
         if(grid[0][0] != 0 || grid[n-1][n-1] != 0)
             return -1;
         
-        set<pair<pair<int, int>, int>> set;
+        queue<pair<pair<int, int>, int>> q;
 
         vector<vector<int>> dist(n, vector<int> (n, INT_MAX));
         dist[0][0] = 1;
 
-        set.insert({{0, 0}, 1});
+        q.push({{0, 0}, 1});
 
-        while(!set.empty()){
-            auto p = *(set.begin());
+        while(!q.empty()){
+            auto p = q.front();
             int i = p.first.first;
             int j = p.first.second;
             int cellDist = p.second;
-            set.erase(p);
+            q.pop();
 
             for(auto& d : dir){
                 int new_i = i + d[0];
@@ -28,11 +28,9 @@ public:
                 if(new_i >= 0 && new_i < n && new_j >= 0 && new_j < n){
                     if(grid[new_i][new_j] == 0){
                         if(dist[new_i][new_j] > cellDist + 1){
-                            if(set.find({{new_i, new_j}, dist[new_i][new_j]}) != set.end())
-                                set.erase({{new_i, new_j}, dist[new_i][new_j]});
                             
                             dist[new_i][new_j] = cellDist + 1;
-                            set.insert({{new_i, new_j}, dist[new_i][new_j]});
+                            q.push({{new_i, new_j}, dist[new_i][new_j]});
                         }
                     }
                 }
