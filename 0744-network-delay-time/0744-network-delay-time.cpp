@@ -1,5 +1,6 @@
 class Solution {
 public:
+//taking n+1 because node numbering in the question starts from 1;
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         vector<vector<pair<int, int>>> adj(n+1);
         for(auto t : times){
