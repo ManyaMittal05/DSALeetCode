@@ -1,57 +1,42 @@
-#include <vector>
-#include <limits>
-#include <algorithm>
-
-using namespace std;
-
 class Solution {
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
-        // Initialize the distance matrix with infinity
-        vector<vector<int>> dist(n, vector<int>(n, numeric_limits<int>::max()));
+        vector<vector<int>> adjMat(n, vector<int> (n, 1e9));
         
-        // Distance to itself is 0
-        for (int i = 0; i < n; ++i) {
-            dist[i][i] = 0;
+        for(int i = 0; i < n; i++){
+            adjMat[i][i] = 0;
         }
-        
-        // Populate the distance matrix with the given edges
-        for (const auto& edge : edges) {
-            int u = edge[0], v = edge[1], w = edge[2];
-            dist[u][v] = w;
-            dist[v][u] = w;
+
+        for(auto edge : edges){
+            int u = edge[0];
+            int v = edge[1];
+            int wt = edge[2];
+            adjMat[u][v] = wt;
+            adjMat[v][u] = wt;
         }
-        
-        // Floyd-Warshall algorithm
-        for (int k = 0; k < n; ++k) {
-            for (int i = 0; i < n; ++i) {
-                for (int j = 0; j < n; ++j) {
-                    if (dist[i][k] != numeric_limits<int>::max() && dist[k][j] != numeric_limits<int>::max()) {
-                        dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]);
-                    }
+
+        for(int via = 0; via < n; via++){
+            for(int i = 0; i < n; i++){
+                for(int j = 0; j < n; j++){
+                    adjMat[i][j] = min(adjMat[i][j], adjMat[i][via] + adjMat[via][j]);
                 }
             }
         }
-        
-        // Find the city with the smallest number of reachable cities
-        // and if there is a tie, choose the city with the greatest number.
-        int minReachableCities = numeric_limits<int>::max();
-        int bestCity = -1;
-        
-        for (int i = 0; i < n; ++i) {
-            int reachableCities = 0;
-            for (int j = 0; j < n; ++j) {
-                if (dist[i][j] <= distanceThreshold) {
-                    reachableCities++;
+
+        vector<int> count(n, 0);
+        int minCount = 1e9;
+        int ans = 0;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                if(adjMat[i][j] <= distanceThreshold && i != j){
+                    count[i]++;
                 }
             }
-            
-            if (reachableCities <= minReachableCities) {
-                minReachableCities = reachableCities;
-                bestCity = i;
+            if(count[i] <= minCount){
+                minCount = count[i];
+                ans = i;
             }
         }
-        
-        return bestCity;
+        return ans;
     }
 };
