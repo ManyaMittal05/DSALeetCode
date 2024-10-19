@@ -9,14 +9,17 @@ public:
         return s;
     }
 
-    char findKthBit(int n, int k) {
-        vector<string> s(n+1);
-        s[1] = "0";
+    string helper(int n){
+        if(n == 1)
+            return "0";
+        
+        string prevStr = helper(n - 1);
 
-        for(int i = 2; i < n + 1; i++){
-            string invertedAndRev = invert(s[i-1]);
-            s[i] = s[i-1] + "1" + invertedAndRev;
-        }
-        return s[n][k-1];
+        return prevStr + "1" + invert(prevStr);
+    }
+
+    char findKthBit(int n, int k) {
+        string s = helper(n);
+        return s[k-1];
     }
 };
