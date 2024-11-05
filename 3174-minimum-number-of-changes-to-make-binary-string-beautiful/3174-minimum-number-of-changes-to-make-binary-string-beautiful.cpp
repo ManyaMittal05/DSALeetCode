@@ -1,7 +1,6 @@
 class Solution {
 public:
     int minChanges(string s) {
-        char ch = s[0];
         int n = s.size();
         int count = 1;
         int changes = 0;
