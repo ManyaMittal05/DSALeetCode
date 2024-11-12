@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3518-maximum-multiplication-score](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3518-maximum-multiplication-score) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
@@ -729,6 +730,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3291-find-if-array-can-be-sorted) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3394-minimum-array-end) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 ## Graph
@@ -928,6 +930,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Trie
 |  |
 | ------- |
