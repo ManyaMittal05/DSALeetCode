@@ -254,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3518-maximum-multiplication-score](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3518-maximum-multiplication-score) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3558-find-a-safe-walk-through-a-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3558-find-a-safe-walk-through-a-grid) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3582-find-indices-of-stable-mountains](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3582-find-indices-of-stable-mountains) |
@@ -948,6 +949,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManyaMittal05/DSALeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Trie
 |  |
 | ------- |
