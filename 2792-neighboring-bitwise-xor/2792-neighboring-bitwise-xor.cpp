@@ -1,12 +1,12 @@
 class Solution {
 public:
     bool doesValidArrayExist(vector<int>& derived) {
-        int count = 0;
+        int xOr = 0;
         for(int bit : derived){
-            count += bit;
+            xOr ^= bit;
         }
 
-        if(count % 2 == 0) return true;
+        if(xOr == 0) return true;
         return false;
     }
 };
