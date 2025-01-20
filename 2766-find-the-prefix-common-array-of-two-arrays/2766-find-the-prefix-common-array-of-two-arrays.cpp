@@ -9,8 +9,10 @@ public:
             freq[A[i]]++;
             freq[B[i]]++;
             if(A[i] == B[i]) dups++;
-            else if(freq[A[i]] == 2 && freq[B[i]] == 2) dups += 2;
-            else if(freq[A[i]] == 2  || freq[B[i]] == 2) dups++;
+            else{
+                if(freq[A[i]] == 2) dups++;
+                if(freq[B[i]] == 2) dups++;
+            }
 
             ans.push_back(dups); 
         }
