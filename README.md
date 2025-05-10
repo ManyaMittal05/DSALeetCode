@@ -263,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2792-neighboring-bitwise-xor) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -496,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2716-prime-subtraction-operation](https://github.com/ManyaMittal05/DSALeetCode/tree/master/2716-prime-subtraction-operation) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3195-separate-black-and-white-balls](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/ManyaMittal05/DSALeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Recursion
